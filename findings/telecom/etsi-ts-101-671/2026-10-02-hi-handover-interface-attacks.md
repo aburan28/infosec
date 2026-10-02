@@ -1,3 +1,21 @@
+---
+id: FND-etsi-ts-101-671-001
+title: "Six protocol-conformant attacks on the LI handover interface (Checkmate, Ghost Warrant, Bounce-back, Rebind, Stash, Blackout)"
+date: 2026-10-02
+domain: telecom
+target: "ETSI TS 101 671 — Lawful Interception handover interface (HI1/HI2/HI3)"
+target_versions: ["V3.14.1 (2016-03)"]
+classification: protocol-spec
+severity: high
+status: published
+actors: [A1-on-path, A2-end-party, A3-insider, A4-agency]
+novelty: novel
+references:
+  - "ETSI TS 102 232 series (successor HI for IP delivery)"
+  - "ETSI TS 103 172 (securing the handover interface)"
+  - "3GPP TS 33.108 (handover interface, TLS-based profiles)"
+---
+
 # Security analysis of the ETSI TS 101 671 V3.14.1 (2016-03) lawful-interception handover interface
 
 **Target:** ETSI TS 101 671 V3.14.1 (2016-03) — "Lawful Interception (LI); Handover interface for the lawful interception of telecommunications traffic" (HI1/HI2/HI3, ROSE and FTP delivery, annexes A–L, ASN.1 modules per annex D).
